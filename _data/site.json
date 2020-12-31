@@ -7,7 +7,7 @@
   "url": "https://spacebook.app",
   "githubUrl": "https://github.com/broeker/spacebook",
   "githubBranch": "main",
-  "enableSearch": true,
+  "enableSearch": false,
   "enableDarkMode": true,
   "enableEditButton": true,
   "enableGithubLink": true,
