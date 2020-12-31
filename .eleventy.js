@@ -17,7 +17,6 @@ module.exports = function(eleventyConfig) {
     return String(Date.now());
   });
 
-
   eleventyConfig.addLiquidShortcode("button", function(title,url) {
     return '<a class="button" href="'+url+'">'+title+'</a>';
   });
@@ -191,7 +190,7 @@ module.exports = function(eleventyConfig) {
     // Leading or trailing slashes are all normalized away, so don’t worry about it.
     // If you don’t have a subdirectory, use "" or "/" (they do the same thing)
     // This is only used for URLs (it does not affect your file structure)
-    pathPrefix: "/",
+    pathPrefix: (process.env.NODE_ENV == 'production' ? "/spacebook/" : "/"),
 
     markdownTemplateEngine: "liquid",
     htmlTemplateEngine: "njk",
@@ -200,7 +199,7 @@ module.exports = function(eleventyConfig) {
       input: ".",
       includes: "_includes",
       data: "_data",
-      output: "_site"
+      output: "docs"
     }
   };
 };

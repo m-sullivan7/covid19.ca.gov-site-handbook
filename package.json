@@ -4,7 +4,7 @@
   "description": "A simple site generator based on Eleventy, Tailwind 2.0, and Alpine.js",
   "scripts": {
     "start": "eleventy --output ./docs --serve & postcss styles/tailwind.css --o _tmp/style.css --watch",
-    "build": "ELEVENTY_PRODUCTION=true eleventy --output ./docs && NODE_ENV=production postcss styles/tailwind.css --o docs/style.css",
+    "build": "NODE_ENV=production ELEVENTY_PRODUCTION=true eleventy --output ./docs && postcss styles/tailwind.css --o docs/style.css",
     "watch": "npx eleventy --watch",
     "debug": "DEBUG=* npx eleventy"
   },
