@@ -1,4 +1,4 @@
-name: Eleventy Build
+name: Eleventy Build and deployt to gh-pages
 on:
   push:
     branches:
@@ -10,10 +10,8 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Build
-        uses: cagov/actions-eleventy@3.1
-        with:
-          build_task: build
-          build_eleventy_args: 
+        - run: npm install
+        - run: npm run build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v1.1.0
         env:
