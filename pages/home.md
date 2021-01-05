@@ -20,19 +20,6 @@ Spacebooks are modern notebooks you can use to create documentation, sketch out 
 
 ---
 
-## Launch a new spacebook
-
-You can launch your own spacebook and deploy it to the cloud on Netlify with the click of a button. You'll need an existing [Github account](https://github.com/) and a [Netlify account](https://www.netlify.com/) (which you can create during this process if you wish): 
-
-
-<div class="flex width-full justify-center">
-<a class="bg-green-700 hover:bg-blue-600 text-white no-underline mb-4 px-4 py-2 rounded" href="https://app.netlify.com/start/deploy?repository=https://github.com/broeker/spacebook">Deploy to Netlify!</a>
-</div>
-
-This process will automatically copy the spacebook repository to your own personal Github account. Once complete, your new spacebook will be automatically deployed on Netlify and ready for customization. 👍
-
----
-
 ## What is a spacebook? 
 
 A spacebook is a simple website generator that will help you create your own project just like this one using a bunch of cool, modern, and fast technology:
