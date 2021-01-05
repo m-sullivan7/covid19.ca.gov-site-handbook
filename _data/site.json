@@ -9,7 +9,7 @@
   "githubBranch": "main",
   "enableSearch": false,
   "enableDarkMode": true,
-  "enableEditButton": true,
+  "enableEditButton": false,
   "enableGithubLink": true,
   "enableContact": false,
   "enableTOC": false,
