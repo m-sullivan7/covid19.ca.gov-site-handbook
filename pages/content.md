@@ -8,6 +8,9 @@ eleventyNavigation:
   parent: Home
   key: Set up your content 
 ---
+We have a nifty style guide to help people throughout state agencies write great content.
+
+
 All of your content pages are stored in a single top-level directory called **pages** and if you look inside this folder, you will see the sample pages that are part of your spacebook.
 
 ::: callout
