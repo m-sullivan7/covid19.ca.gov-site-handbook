@@ -8,7 +8,7 @@ eleventyNavigation:
   order: 45 
   parent: Tips & Tricks
 ---
-Both the primary menu and the in-page navigation rely on the **order** setting in the frontmatter for each of your pages. 
+Both the primary menu and in-page navigation rely on the **order** setting in the frontmatter for each of your pages. 
 
 ## Homepage
 
